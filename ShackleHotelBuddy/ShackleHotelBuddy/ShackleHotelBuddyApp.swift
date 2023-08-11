@@ -11,7 +11,18 @@ import SwiftUI
 struct ShackleHotelBuddyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchHotelContentView()
+//                        HotelSearchResults()
+//            HotelDetailsContentView(
+//                viewModel: HotelDetailsViewModel(hotel: Hotel(
+//                    id: "adwdw",
+//                    name: "jdwj",
+//                    location: "wqohd",
+//                    image: "kqwnd",
+//                    price: 2343,
+//                    rating: 23
+//                ))
+//            )
         }
     }
 }
